@@ -5,5 +5,6 @@
 
 # réponse 2.3
 number2 = 2.7182
-print(type(int(number2)))
-print(number2)
+print(int(number2))
+number2_int = 2
+print(number2_int)
