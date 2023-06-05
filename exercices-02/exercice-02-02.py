@@ -5,6 +5,5 @@
 
 # réponse 2.2
 number1 = 2
-print(type(float(number1)))
-number1_float = 2.0
-print(number1)
+number1_float = float(number1)
+print(number1_float)

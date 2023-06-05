@@ -6,4 +6,6 @@
 # Affichez le résultat.
 
 # réponse 2.5
-
+number4 = 3.1415
+number4_rounded = number4(float)
+print(number4_rounded)
