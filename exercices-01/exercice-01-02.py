@@ -2,6 +2,6 @@
 # Affichez le message "programme terminé" en utilisant des simples quotes
 
 # réponse 1.2
-text='programme terminé'
+text = 'programme terminé'
 print(text)
 

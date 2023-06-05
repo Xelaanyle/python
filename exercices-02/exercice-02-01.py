@@ -8,5 +8,14 @@
 # Affichez ces variables
 
 # réponse 2.1
-answer= 42
+answer = 42
+golden_ratio = 1.61
+fullnam = "Salut Alexandre Chemin"
+love_python = True 
+license_agreement = None
 
+print(answer)
+print(golden_ratio)
+print(fullnam)
+print(love_python)
+print(license_agreement)
