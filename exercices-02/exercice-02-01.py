@@ -8,4 +8,5 @@
 # Affichez ces variables
 
 # réponse 2.1
+answer= 42
 
