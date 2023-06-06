@@ -96,6 +96,11 @@ print(type(int(text3)))
 a = 123
 b = 42
 
+# permutation des valeurs à l'aide de la méthode pythonique
+# destructrured assignment
+
+b, a = a, b
+
 # permutation des valeurs à l'aide d'une varaible temporaire
 
 tmp = a
@@ -113,3 +118,31 @@ a = a - b
 
 print(a)
 print(b)
+
+# addition de float
+# affiche 0.30000000000000004 au lieu de 0.3
+print(0.1 + 0.1 + 0.1)
+
+# affiche 0.10.10.1
+print("0.1" + "0.1" + "0.1")
+
+# pour additionner correctement des nombres décimaux
+
+import decimal
+from decimal import Decimal
+
+# affiche correctement 0.3
+print(Decimal("0.1") + (Decimal("0.1")) + (Decimal("0.1")))
+
+# affiche correctement 0.3
+print(Decimal("0.3"))
+
+# arrondi des floats
+
+decimal.getcontext().rounding = decimal.ROUND_HALF_UP
+print(Decimal("0.05").quantize(Decimal("1")))
+print(Decimal("0.15").quantize(Decimal("0.1")))
+
+decimal.getcontext().rounding = decimal.ROUND_HALF_DOWN
+print(Decimal("0.05").quantize(Decimal("1")))
+print(Decimal("0.15").quantize(Decimal("0.1")))
