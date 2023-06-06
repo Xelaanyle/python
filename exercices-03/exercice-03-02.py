@@ -12,7 +12,7 @@ chocolates = 17
 friends = 3
 
 # réponse 3.2
-candies_rest = candies % friends
-chocolates_rest = chocolates % friends
+candies_rest = can
+chocolates_rest = 
 print(candies_rest)
 print(chocolates_rest)
