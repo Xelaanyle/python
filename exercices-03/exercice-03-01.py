@@ -11,5 +11,5 @@ birthyear = 1988
 birthyear = 1988
 year = 2023
 age = year - birthyear
-print("Sont âge est de:",age , "ans")
+print(age)
 
