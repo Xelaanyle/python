@@ -96,14 +96,20 @@ print(type(int(text3)))
 a = 123
 b = 42
 
-#a = a + b
-#b = a - b
-#a = a - b
+# permutation des valeurs à l'aide d'une varaible temporaire
 
 tmp = a
 a = b
 b = tmp
 
+print(a)
+print(b)
+
+# permutation des valeurs & l'aide d'opérations arithmétiques
+
+a = a + b
+b = a - b
+a = a - b
 
 print(a)
 print(b)
