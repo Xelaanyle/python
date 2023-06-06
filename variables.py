@@ -15,6 +15,28 @@ print(text1)
 text2 = "foo bar baz"
 print(text2)
 
+#Cette notation permet de faire des sauts de ligne
+text4 = """<div>
+    <h1>Titre de premier niveau</h1>
+</div>
+"""
+
+#\n est équivalent à un saut de ligne
+#\t est équivalent & une tabulation
+text5 = "<div>\n\t<h1>Titre de premier niveau</h1>\n</div>\n"
+print(text5)
+
+#Le backslash seul est le caractère d'échappement
+#Le \" est équivalent à une guillement
+#Le \\ est équivalent à un backslash
+
+text6 = "Foo \"Bar\" Baz"
+print(text6)
+
+text7 = "C:\\Program Files\\Foo"
+print(text7)
+
+
 # Booléen / Boolean
 python_is_cool = True
 print(python_is_cool)
@@ -42,6 +64,7 @@ print(type(number1) is str)
 # Todo: interroger le type des autres variables
 
 # Transtypage int -> str
+#Typecasting
 print(type(str(number1)))
 print(str(number1))
 
@@ -65,3 +88,22 @@ print(type(int(text3)))
 # int() convertit vers integer / nombre entier
 # float() convertir vers float / nombre a virgule flottante
 # bool() convertir vers boolean / valeur booléen 
+
+
+#permutez les deux variables a et b en utilisant l'opérateur d'affectation
+#  et le nom des variables
+
+a = 123
+b = 42
+
+#a = a + b
+#b = a - b
+#a = a - b
+
+tmp = a
+a = b
+b = tmp
+
+
+print(a)
+print(b)
