@@ -7,12 +7,18 @@
 import random
 
 # affectaction d'un nombre entier entre 0 et 99 à la variable a
-a = random.randint(0, 99)
+a = random.randint(50, 50)
 print(a)
 
 # affectaction d'un nombre entier entre 0 et 99 à la variable b
-b = random.randint(0, 99)
+b = random.randint(50, 50)
 print(b)
 
 # réponse 4.7
 
+if a > b:
+    print("le nombre a est supérieur au nombre b") 
+elif a < b:
+    print("le nombre a est inférieur au nombre b")
+else:
+    print("les deux nombres a et b sont égaux")
