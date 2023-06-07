@@ -56,3 +56,5 @@ print(42 <= 42)
 
 print(123 != 42)
 
+print(2 % 2 != 1 % 2) # Pair ou impair
+

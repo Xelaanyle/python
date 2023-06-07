@@ -12,3 +12,7 @@ print(number)
 
 # réponse 4.6
 
+if number :
+    print(" ")
+else:
+    print(" ")
