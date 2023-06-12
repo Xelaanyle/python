@@ -13,5 +13,4 @@ print(21 % 2)
 # code 4.3
 # affichage d'une variable avec une f-string
 number = 42
-print(f"{number : }")
-
+print(f"{number = }")
