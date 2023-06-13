@@ -8,3 +8,5 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.5
 
+ligne = my_text.count("\n") + 1
+print(ligne)

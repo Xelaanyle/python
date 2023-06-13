@@ -9,3 +9,6 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.4
 
+my_text2 = my_text.split(" ")
+index = my_text2[5]
+print(index)
