@@ -3,3 +3,5 @@
 
 # réponse 6.1
 
+my_list = [1, 1.1, "Hello", True]
+print(my_list)
