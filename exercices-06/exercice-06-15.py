@@ -8,4 +8,15 @@
 my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
 
 # réponse 6.15
+valeur = 0
+index = 0
+Long_strings = 0
 
+for i in range(len(my_list)):
+    if (len(my_list)) > Long_strings:
+        Long_strings = len(my_list[i])
+        index = i
+        Long_valeur = my_list[index]
+print(f"{Long_strings = }")
+print(f"{Long_valeur = }")
+print(f"{index = }")
