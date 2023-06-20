@@ -6,3 +6,7 @@ import random
 
 # réponse 7.4
 
+for r in range(100):
+    r = random.randint(0, 10)
+    if r <= 5:
+        print(f"{r} est plus petit ou égal à 5")

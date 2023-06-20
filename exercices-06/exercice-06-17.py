@@ -17,3 +17,16 @@ print(matrix)
 
 # réponse 6.17
 
+col = 4 - 1
+line = 3 - 1
+
+value = matrix[line][col]
+print("Valeur à la colonne 4 et ligne 3 :", value)
+
+value = None
+for i in range(len(matrix)):
+    if i == line:
+        value = matrix[i][col]
+        break
+
+print("Valeur à la colonne 4 et ligne 3 :", value)

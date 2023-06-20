@@ -17,3 +17,9 @@ print(matrix)
 
 # réponse 6.18
 
+for row_index in range(len(matrix)):
+    for col_index in range(len(matrix[row_index])):
+        value = matrix[row_index][col_index]
+        if value <= 50:
+            print(f"Ligne : {row_index + 1}, Colonne : {col_index + 1}, Valeur : {value}")
+            # j'ajoute +1 pour facilité la lecture pour partir de 1 au lieu de 0

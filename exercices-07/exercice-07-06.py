@@ -6,3 +6,7 @@ import random
 
 # réponse 7.6
 
+for r in range(100):
+    r = random.randint(0, 10)
+    if r == 1 or r == 10:
+        print(f"{r} est égale à 1 ou égal à 10")
