@@ -14,7 +14,16 @@ value = 3.14
 position = 0
 
 for i in range(len(my_list)):
-    my_list[i] == value
-    position = i
+    if my_list[i] == value:
+        print(i)
 
-print(position)
+value = 3.14
+position = 0
+
+for i, number in enumerate(my_list):
+    if number == value:
+        print(f"{i = }")
+        
+    
+
+

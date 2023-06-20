@@ -77,4 +77,23 @@ for line_index in range(0, len(players)):
     for col_index in range(0, len(line)):
         score = line[col_index]
         print(score)
-# previous dans une boucle
+
+# utiliser la valeur précédente dans une boucle 
+numbers = [123, 42, 1000, 3.14]
+
+# Au premier tour il n'y a pas de valeur précédente
+previous = None
+
+for number in numbers:
+    # on affiche la valeur du tour actuelle
+    print(number)
+    # on affiche la valeur du tour précédent
+    print(previous)
+
+    # préparation du tour suivant
+    # on sauvegarde la valeur du tour actuel pour le tour suivant
+    # cette valeur deviendra la valeur du tour précédent
+    previous = number
+
+
+
