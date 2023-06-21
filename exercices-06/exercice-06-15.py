@@ -16,8 +16,8 @@ for i in range(len(my_list)):
     if (len(my_list)) > Long_strings:
         Long_strings = len(my_list[i])
         index = i
-        Long_valeur = my_list[index]
+        valeur = my_list[index]
         
 print(f"{index = }")
-print(f"{Long_valeur = }")
+print(f"{valeur = }")
 print(f"{Long_strings = }")
