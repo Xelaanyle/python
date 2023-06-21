@@ -6,3 +6,10 @@ import random
 
 # réponse 7.18
 
+r = random.randint(1, 100)
+
+while r != 100:
+    print(f"Vous n'avez pas tiré un 100, mais un {r}")
+    print("Le tirage recommence")
+    r = random.randint(1, 100)
+print(f"Congratulation ! Vous avez réussi a tiré le {r}")

@@ -13,4 +13,4 @@ for r in range(100):
     r = random.randint(0, 10)
     if r >= 7:
         count += 1
-print(count)
+print(f"Nombre de fois ou est plus grand ou égal à 7: {count}")

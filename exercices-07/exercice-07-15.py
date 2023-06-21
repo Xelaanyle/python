@@ -3,3 +3,7 @@
 
 # réponse 7.15
 
+
+for number in range(2, 100):
+    if number % 3 == 0:
+        print(number)

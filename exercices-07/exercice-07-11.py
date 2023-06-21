@@ -6,4 +6,10 @@
 import random
 
 # réponse 7.11
+count = 0
 
+for r in range(100):
+    r = random.randint(0, 10)
+    if r <= 2 or r >= 9:
+        count += 1
+print(count)
