@@ -6,3 +6,7 @@ import random
 
 # réponse 7.7
 
+for r in range(100):
+    r = random.randint(0, 10)
+    if  r >= 3  and r <= 8:
+          print(f"{r} est compris entre 3 et 8 inclus")

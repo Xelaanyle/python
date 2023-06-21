@@ -7,3 +7,10 @@ import random
 
 # réponse 7.9
 
+count = 0
+
+for r in range(100):
+    r = random.randint(0, 10)
+    if r <= 4:
+        count += 1
+print(count)
