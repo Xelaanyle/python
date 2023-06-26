@@ -11,3 +11,10 @@ my_dict = {
 
 # réponse 9.5
 
+poubelle = my_dict.pop('foo')
+print(my_dict)
+
+# or 
+
+# del my_dict['foo']
+# print(my_dict)

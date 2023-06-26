@@ -15,3 +15,5 @@ my_dict = {
 
 # réponse 9.8
 
+for value in my_dict:
+    print(f"{my_dict[value] = }")

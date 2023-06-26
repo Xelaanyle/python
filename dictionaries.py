@@ -52,6 +52,6 @@ print(my_dict)
 a = my_dict.pop(101)
 print(my_dict)
 
-# supprimer une netrée existante sans garder de copie
+# supprimer une entrée existante sans garder de copie
 del my_dict['baz']
 print(my_dict)

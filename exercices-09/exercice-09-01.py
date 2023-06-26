@@ -8,3 +8,10 @@
 
 # réponse 9.1
 
+my_dict = {
+    "a": 13,
+    "b": 13.01,
+    "c": "Xelaanyle",
+    "d": True,
+} 
+print(my_dict)
