@@ -7,7 +7,7 @@ for (let i = 10; i > 0; i--) {console.log("i = " + i)};
 // boucle foreach
 let users = ['foo', 'bar', 'baz'];
 
-// le mot clé "of" permet de récupérér l'élémentz
+// le mot clé "of" permet de récupérér l'éléments
 for (let user of users ){
     console.log(user);
 }
