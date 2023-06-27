@@ -13,3 +13,4 @@
 
 # réponse 10.7
 
+def compute_tax(price: float, tax_type: int) 
