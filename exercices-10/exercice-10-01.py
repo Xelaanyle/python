@@ -7,3 +7,11 @@
 
 # réponse 10.1
 
+a = 1
+b = 5
+
+def my_sum(a, b):
+    return a + b
+
+resultat = my_sum(a, b)
+print(resultat)

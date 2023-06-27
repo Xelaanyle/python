@@ -20,4 +20,19 @@
 # Appelez les fonctions et affichez les résultats
 
 # réponse 10.6
+meters = 1000
+miles = 10
+
+
+def meters_to_miles(meters: float) -> float:
+    return meters / 1609.344
+
+def miles_to_meters(miles: float) -> float:
+    return miles * 1609.344
+
+miles_convert = meters_to_miles(meters)
+meters_convert = miles_to_meters(miles)
+
+print(meters_convert)
+print(miles_convert)
 

@@ -9,3 +9,16 @@
 
 # réponse 10.5
 
+a = 45.6
+b = 12.3
+
+def compare(a: float, b: float) -> int:
+    if a > b:
+        return 1
+    elif a < b:
+        return -1
+    else:
+        return 0
+
+result = compare(a, b)    
+print(result)

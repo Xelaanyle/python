@@ -9,3 +9,14 @@
 
 # réponse 10.3
 
+def oui_non(value):
+    if value == True:
+        return "oui"
+    elif value == False:
+        return "non"
+    return None
+
+result1 = oui_non(1 == 1)
+result2 = oui_non(1 == 2)
+print(result1)
+print(result2)

@@ -8,3 +8,14 @@
 
 # réponse 10.4
 
+a = 10.99
+b = 5.99
+
+def is_greater(a: float, b: float) -> bool:
+    if a > b:
+        return True
+    else:
+        return False
+
+result = is_greater(a, b)
+print(result)

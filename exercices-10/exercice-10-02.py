@@ -8,3 +8,11 @@
 
 # réponse 10.2
 
+a = 5
+b = 10
+
+def my_diff(a: int, b: int) -> int:
+    return b - a
+
+resultat = my_diff(a, b)
+print(resultat)
