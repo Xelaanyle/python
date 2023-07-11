@@ -79,7 +79,7 @@ print(bool(number3))
 # Transtypage str -> int
 # print(type(int(text1))) <- Génère l'erreur print(type(number1) is int)
 
-# Il ne peut pas avoir auter chose qu'un nombre dans la chaîne de caractère si on veut la convertir en "int"
+# Il ne peut pas avoir autre chose qu'un nombre dans la chaîne de caractère si on veut la convertir en "int"
 text3 = "123456789"
 print(type(int(text3)))
 
