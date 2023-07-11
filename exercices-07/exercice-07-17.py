@@ -8,4 +8,4 @@ for number in range(1, 101):
 
 for number in range(0, 100):
     puissance = number ** 3
-print(puissance)
+    print(puissance)
